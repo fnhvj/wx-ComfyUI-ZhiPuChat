@@ -10,7 +10,7 @@ class ZhiPuChat:
             "required": {
                 "api_key": ("STRING", {
                     "multiline": False,
-                    "default": "8cfd06b92b7a55b74cc6498b8a885abf.Sl32i44hRHJ3IAft"
+                    "default": "pleace input your api_key"
                 }),
                 "model": (['glm-4', 'glm-3-turbo', 'characterglm'], {'default': 'glm-4'}),
                 "question": ("STRING", {
